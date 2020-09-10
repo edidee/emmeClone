@@ -281,7 +281,7 @@ form input::placeholder{
 
     .center-div{
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .case-button{
@@ -289,12 +289,13 @@ form input::placeholder{
     }
 
     .center-div2{
-        top: 30%;
+        /* top: 30%; */
+        align-items: center;
         order: 1;
     }
     
     .sect3-img-div{
-        order: 2;
+
     }
 
     .div-footer, footer{
