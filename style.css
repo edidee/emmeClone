@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #7b394e;
+}
+
+.navbar-brand svg{
+    fill: #7b394e;
+}
+
+.nav-link, .p-1{
+    color: #7b394e;
+    font-size: 12px;
+    font-family: TradeGothicLTPro-Bold,sans-serif;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.nav-link:hover, .navbar-toggler-icon{
+    color: #e3775e;
+}
+.hero{
+    background-image: url(images/hero-image1.webp);
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    position: relative;
+
+}
+
+
+.left-side{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+.left-side h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.left-side h1, .left-side p{
+    color: #fff;
+}
+
+.left-side p{
+    font-size: 1.0rem;
+}
+
+.shop-button{
+    width: 120px;
+    height: 40px;
+    background-color: #0b1498;
+    border: 1.5px solid #0b1498;
+    color: #fff;
+    border-radius: 0px 15px;
+}
+
+.shop-button:hover{
+    background-color: #fff;
+    color: #0b1498;
+}
+
+.section1, .section3, .section5{
+    background-color: #fbebe7;
+}
+
+.section1-head{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.img-div{
+    width: 6rem;
+}
+
+.icon-image{
+    width: 6rem;
+}
+
+.sect1-sub{
+    display: flex;
+
+}
+
+.sect1-sub-text{
+    text-align: left;
+    width: auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.p-2{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.case-button{
+    width: 200px;
+    height: 37px;
+    border-radius: 0px 15px;
+    border: 1.5px solid #e3775e;
+    color: #e3775e;
+}
+
+.sect3-img-div{
+    order: 1;
+}
+
+.case-button:hover{
+    color: #fff;
+    background-color: #e3775e;
+}
+
+.center-div{
+    margin-top: 2rem;
+}
+
+.center-div2{
+    order: 2;
+}
+
+.p-color, .a-color{
+    color: #e3775e;
+}
+
+.p-color{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.image-gallery{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-gallery div{
+    padding: 0;
+}
+
+.p-bold{
+    font-size: 12px;
+    font-family: TradeGothicLTPro-Bold,sans-serif;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.lovers{
+    height: 10vh;
+}
+
+.div-footer, footer{
+    background-color: #e3775e;
+    height: 45vh;
+    
+}
+
+.div1-footer{
+    border-right: 1px solid #fff;
+    justify-content: center;
+}
+.i-dont-know-what-to-name-you{
+    color: #fff;
+}
+
+.i-dont-know-what-to-name-you a{
+    color: #7b394e;
+}
+
+form input{
+    width: 45%;
+    height: 37px;
+    border-radius: 0px 15px;
+    border: 1px solid #fff;
+    background-color: #e3775e;
+    color: #fff;
+}
+
+form input::placeholder{
+    color: #fff;
+    padding-left: 1rem;
+
+}
+
+.btn{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 37px;
+    border-radius: 0px 15px;
+    color: #e3775e;
+    background-color: #fff;
+}
+
+.btn:hover{
+    background-color: #e3775e;
+    color: #fff;
+}
+
+.footer-col1{
+    margin-top: 1px solid #7b397b;
+    color: #fff;
+    order: 2;
+}
+
+.footer-col1 i{
+    font-size: 2rem;
+}
+.parent-list{
+    justify-content: space-between;
+    order: 1;
+}
+
+.footer-list ul{
+    list-style: none;
+
+}
+
+.footer-list ul li{
+    padding-bottom: 1rem;
+
+}
+
+.footer-list li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-list li a:hover{
+    color: #0b1498;
+}
+
+@media (min-width: 768px){
+    .hero{
+        height: 80vh;
+    }
+
+    .left-side h1{
+        font-size: 3.7rem;
+        font-weight: 700;
+    }
+
+    .left-side p{
+        font-size: 1.2rem;
+    }
+
+    .left-side{
+        width: 40%;
+        margin-left: 4rem;
+        
+    }
+    .section1-head{
+        font-size: 1.5rem;
+    }
+
+    .sect1-sub{
+        display: block;
+        margin-left: 4rem;
+        
+    }
+    .sect1-sub-text{
+        text-align: center;
+    }
+
+    .parent-container{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .p-2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .center-div{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .case-button{
+        margin-left: 3rem;
+    }
+
+    .center-div2{
+        top: 30%;
+        order: 1;
+    }
+    
+    .sect3-img-div{
+        order: 2;
+    }
+
+    .div-footer, footer{
+        background-color: #e3775e;
+        height: 35vh;
+        
+    }
+    
+}
+
+@media(min-width: 1024px){
+    .div-footer, footer{
+        height: 25vh;
+    }
+}
+
+@media(min-width: 1440px){
+    .div-footer, footer{
+        height: 35vh;
+    }
+}
