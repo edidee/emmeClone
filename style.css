@@ -6,6 +6,7 @@
 
 body {
     color: #7b394e;
+    /* font-family: Intro-Bold; */
 }
 
 nav{
@@ -17,7 +18,7 @@ nav{
 
 
 .nav-link, .p-1{
-    color: #7b394e;
+    color: #7b394e !important;
     font-size: 12px;
     font-family: TradeGothicLTPro-Bold,sans-serif;
     line-height: 1;
@@ -32,7 +33,7 @@ nav{
     background-image: url(images/hero-image1.webp);
     width: 100%;
     height: 80vh;
-    object-fit: contain;
+    background-size: cover;
     position: relative;
 
 }
@@ -113,6 +114,7 @@ nav{
     border-radius: 0px 15px;
     border: 1.5px solid #e3775e;
     color: #e3775e;
+    margin: 0 auto;
 }
 
 .sect3-img-div{
@@ -144,7 +146,7 @@ nav{
 .image-gallery{
     width: 90%;
     margin: 0 auto;
-    /* align-items: center; */
+    justify-content: center;
 }
 
 .image-gallery div{
@@ -181,6 +183,10 @@ nav{
 
 .i-dont-know-what-to-name-you a{
     color: #7b394e;
+}
+
+.div2-footer{
+    padding-bottom: 3rem;
 }
 
 form input{
@@ -221,6 +227,19 @@ form input::placeholder{
 .footer-col1 i{
     font-size: 2rem;
 }
+.footer-p{
+    /* padding-top: 4rem; */
+    display: none;
+}
+
+.footer-p2{
+    display: block;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+
+}
+
 .parent-list{
     justify-content: space-between;
     order: 1;
@@ -247,7 +266,7 @@ form input::placeholder{
 
 @media (min-width: 768px){
     .hero{
-        height: 80vh;
+        height: 50vh;
     }
 
     .left-side h1{
@@ -287,13 +306,8 @@ form input::placeholder{
         font-weight: 700;
     }
 
-    .center-div{
-        align-items: center;
-        /* justify-content: center; */
-    }
-
-    .case-button{
-        margin-left: 3rem;
+    .center-div, .center-div2{
+        text-align: center;
     }
 
     .center-div2{
@@ -313,11 +327,19 @@ form input::placeholder{
 
     .footer-p{
         padding-top: 4rem;
+        display: block;
+    }
+
+    .footer-p2{
+        display: none;
     }
     
 }
 
 @media(min-width: 1024px){
+    .hero{
+        height: 70vh;
+    }
     .left-side{
         width: 50%;
         
@@ -325,8 +347,6 @@ form input::placeholder{
 }
 
 @media(min-width: 1440px){
-    .div-footer, footer{
-        /* height: 35vh; */
-        /* padding: 3rem; */
-    }
+    
+
 }
